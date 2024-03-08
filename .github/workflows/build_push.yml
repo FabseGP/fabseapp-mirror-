@@ -30,7 +30,6 @@ jobs:
 
       - name: Install rust dependencies
         run: |
-#          rustup add target wasm32-unknown-unknown
           cargo install trunk
 
       - name: Build the app
