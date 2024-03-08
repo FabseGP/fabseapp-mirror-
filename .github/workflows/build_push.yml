@@ -29,6 +29,8 @@ jobs:
         uses: dtolnay/rust-toolchain@nightly
         with:
           targets: 'wasm32-unknown-unknown'
+
+      - name: Install rust dependencies
         run: |
           cargo install trunk
 
